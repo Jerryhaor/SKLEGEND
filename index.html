@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8" />
+   <meta content="width=device-width, initial-scale=1" name="viewport" />
+   <title>SK Legend Garage</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+   <style>
+      @font-face {
+         font-family: 'SFUAngieRegular';
+         src: url('fonts/00203-SFUAngieRegular.TTF') format('truetype');
+         font-weight: normal;
+         font-style: normal;
+      }
+
+      body {
+         font-family: 'SFUAngieRegular', sans-serif;
+      }
+
+      /* Áp dụng font Montserrat cho phần nav */
+      .nav-font {
+         font-family: 'Montserrat', sans-serif;
+      }
+   </style>
+</head>
+
+<body class="bg-black text-white">
+   <!-- Top nav -->
+   <nav class="bg-gray-800 px-4 py-2">
+      <div class="mx-auto flex justify-between items-center max-w-7xl">
+         <div class="flex items-center space-x-6">
+            <!-- Tăng kích thước logo -->
+            <a href="/"> <img alt="Red gear and car logo with SK LEGEND text" class="h-14 w-auto" src="images/logo.png" /></a>
+            <ul class="flex space-x-6 text-yellow-500 font-extrabold text-sm sm:text-base">
+               <li><a class="hover:underline" href="/">TRANG CHỦ</a></li>
+               <li><a class="hover:underline" href="service.html">DỊCH VỤ</a></li>
+               <li><a class="hover:underline" href="#">THÔNG BÁO</a></li>
+               <li><a class="hover:underline" href="discount.html">KHUYẾN MÃI</a></li>
+               <li><a class="hover:underline" href="#">ĐIỂM TÍCH LŨY</a></li>
+            </ul>
+         </div>
+         <div class="flex space-x-3">
+            <button
+               class="bg-white text-black font-extrabold text-xs sm:text-sm rounded-md px-3 py-1 hover:bg-gray-200">ĐĂNG
+               NHẬP</button>
+            <button
+               class="bg-white text-black font-extrabold text-xs sm:text-sm rounded-md px-3 py-1 hover:bg-gray-200">ĐĂNG
+               KÝ</button>
+         </div>
+      </div>
+   </nav>
+
+   <!-- Main banner -->
+   <section class="max-w-7xl mx-auto mt-6 rounded-md px-4 py-6">
+      <img alt="Banner showing red garage" class="w-full rounded-md shadow-lg" src="images/nen8.png" />
+   </section>
+
+   <!-- Content section -->
+   <section class="max-w-7xl mx-auto mt-12 px-4 flex flex-col md:flex-row gap-6">
+      <!-- Content section: Takes up 6 parts of the 12-column layout -->
+      <div class="nav-font flex-1 md:w-6/12 flex items-center">
+         <div>
+            <h2 class="text-white font-bold text-lg sm:text-xl mb-3">GARAGE Ô TÔ SK LEGEND Kính chào quý khách</h2>
+            <p class="text-white font-semibold mb-3 leading-relaxed text-sm sm:text-base">
+               SK LEGEND là Garage sửa chữa ô tô chuyên nghiệp tại Việt Nam đang vươn mình phát triển với đội ngũ kỹ
+               thuật
+               trẻ được đào tạo bài bản và máy móc chuẩn đoán hiện đại
+            </p>
+            <p class="text-white font-semibold mb-3 leading-relaxed text-sm sm:text-base">
+               Với phương châm
+               <span class="text-red-600 font-bold">“Uy tín - lấy niềm tin khách hàng làm giá trị cốt lõi”</span>, SK
+               LEGEND mang đến dịch vụ bảo dưỡng và sửa chữa ô tô toàn diện, kết hợp giữa tay nghề kỹ thuật cao và trang
+               thiết bị hiện đại, đáp ứng mọi nhu cầu của khách hàng.
+            </p>
+         </div>
+      </div>
+      <!-- Image section: Takes up the remaining 6 parts of the 12-column layout -->
+      <div class="flex-1 md:w-6/12 flex justify-center md:justify-end">
+         <img alt="Garage building side view" class="max-w-full h-auto rounded-sm" src="images/nen2.png" />
+      </div>
+   </section>
+
+   <!-- Info boxes -->
+   <section
+      class="nav-font max-w-7xl mx-auto mt-12 px-4 grid grid-cols-1 sm:grid-cols-3 gap-6 text-black font-semibold text-center">
+      <div class="bg-yellow-500 p-6 rounded-md">
+         <p class="mb-3 font-bold">LỊCH LÀM VIỆC</p>
+         <p class="font-bold">Thứ 2 đến thứ 7<br />08:00 - 19:00</p>
+      </div>
+      <div class="bg-yellow-500 p-6 rounded-md">
+         <p class="mb-3 font-bold">Hotline 24/7</p>
+         <p class="font-bold">0368894691</p>
+      </div>
+      <div class="bg-yellow-500 p-6 rounded-md">
+         <p class="mb-3 font-bold">VỊ TRÍ</p>
+         <p class="font-bold leading-tight">
+            727/21/18, Lê Hồng Phong,<br />
+            Phường Phú Thọ,<br />
+            Thành phố Thủ Dầu Một,<br />
+            Tỉnh Bình Dương, Việt Nam
+         </p>
+      </div>
+   </section>
+
+   <footer class="nav-font bg-gray-800 mt-16 py-8 px-4">
+      <div class="flex justify-between max-w-7xl mx-auto">
+         <!-- Hỗ trợ -->
+         <div class="w-4/12">
+            <h3 class="font-serif font-semibold text-lg mb-2">HỖ TRỢ</h3>
+            <p class="font-extralight mb-1">Mọi thắc mắc và góp ý cần hỗ trợ xin vui lòng liên hệ</p>
+            <p class="font-extralight mb-1">Fanpage và hotline</p>
+            <p class="font-extralight mb-1">Địa chỉ: 727 Lê Hồng Phong, Phường Phú Thọ, Thành</p>
+            <p class="font-extralight mb-1">Phố Thủ Dầu Một, Tỉnh Bình Dương</p>
+            <p class="font-extralight">Cảm ơn quý khách hàng đã tin tưởng và ủng hộ</p>
+         </div>
+
+         <!-- Social Icons -->
+         <div class="w-8/12 flex justify-around items-center">
+            <a aria-label="Facebook icon"
+               class="w-16 h-16 rounded-full bg-blue-400 flex items-center justify-center shadow-lg"
+               href="https://www.facebook.com/LamHoaiHao">
+               <i class="fab fa-facebook-f text-white text-2xl"></i>
+            </a>
+            <a aria-label="Phone icon"
+               class="w-16 h-16 rounded-full bg-red-500 flex items-center justify-center shadow-lg"
+               href="tel:+84123456789">
+               <i class="fas fa-mobile-alt text-white text-2xl"></i>
+            </a>
+            <a aria-label="Messenger icon"
+               class="w-16 h-16 rounded-full bg-gradient-to-tr from-purple-400 via-blue-400 to-blue-600 flex items-center justify-center shadow-lg"
+               href="https://www.facebook.com/LamHoaiHao">
+               <i class="fab fa-facebook-messenger text-white text-2xl"></i>
+            </a>
+         </div>
+      </div>
+   </footer>
+
+   <!-- Bottom copyright -->
+   <div class="nav-font bg-gray-900 text-gray-300 text-xs py-3 font-semibold">
+      <div class="max-w-7xl mx-auto text-center">
+         Copyright 2024 © <span class="font-bold">SK LEGEND</span>
+      </div>
+   </div>
+</body>
+
+</html>
